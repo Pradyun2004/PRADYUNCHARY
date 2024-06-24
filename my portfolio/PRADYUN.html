@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADYUN</title>
+    <style>
+
+        section{
+            border: 1px solid gray ;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          
+         
+  
+        }
+       .us{
+        padding: 7px;
+       }
+      
+        a{
+            text-decoration: none;
+        }
+        header{
+            height: 100vh;
+            background-color:dodgerblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+             text-align: center;
+             flex-wrap: wrap;
+  
+        }
+        button{
+           
+         cursor: pointer;
+      
+        }
+       
+        .button:hover{
+            background-color:burlywood;
+        }
+        *{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .button{
+            margin: 15px;
+            
+            
+        }
+        img{
+            height: 300px;
+        }
+        h1{
+            text-transform: uppercase;
+            color: crimson;
+          font-size: 40px;
+        }
+        .top{
+            position: fixed;
+            background-color: chartreuse;
+            right: 10px;
+            width: 50px;
+            bottom: 10px;
+            margin-right: 20px;
+            border-radius: 79%;
+        }
+        .sub{
+            background-color: forestgreen;
+            color: white;
+          
+        }
+        .res{
+            background-color: firebrick;
+            color: white;
+           
+        }
+        footer{
+            height: 150px;
+            background-color: black;
+            color: grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+     
+       
+       
+
+     
+    </style>
+</head>
+<body>
+     
+
+
+    <header>
+           <h1> WELCOME TO MY PORTFOLIO</h1>
+           
+
+          <div>
+           <a href="#about">
+            <button class="button"> ABOUT </button>
+           </a>
+       <a href="#skills">
+        <button class="button"> SKILLS</button>
+       </a>
+           <a href="#contact">
+            <button class="button"> CONTACT</button>
+           </a>
+          </div>
+
+
+    </header>
+     <main> 
+
+           <section id="about"> 
+                     <h1>PRADYUN </h1>
+                     <img src="NPC.jpg" alt="">
+                     <P> ~ Iam passionate web developer with a focus of front-End developer. <br><br> ~ iam curenlty pursuing my <strong> B-tech in</strong> <em>  CJIT institute of technolgy in jangoan.</em> <br><br> ~ I have learnt web development from <br>code with swaroop. </P>
+         </section>
+       <section id="skills">
+            <h1> MY SKILLS</h1>
+            <ul>
+                <li> HTML</li>
+                <li> CSS</li>
+                <li>      JAVA SCRIPT</li>
+                <li> REACT JS</li>
+            </ul>
+
+         </section>
+       
+        
+        <section  id="contact">
+     
+         <form action="">
+             <h1>contact me </h1>
+             <div class="us">
+               <label for=""> USERNAME : </label>
+               <input type="text" placeholder="username">
+             </div>
+         <div class="us">
+           <label for="">EMAIL : </label>
+           <input type="email" placeholder="email" required>
+         </div>
+           <div class="us">
+             <label for="">PASSWORD : </label>
+             <input type="password" required>
+           </div>
+       <div class="us">
+         <label for="">GENDER :  </label>
+         <input type="radio" >
+         <label for="">male</label>
+         <input type="radio">
+         <label for="">female</label>
+       </div>
+             <div class="us">
+               <label for="">give upto 200 characters</label>
+            <textarea name="" id="" placeholder="upto 200 characters" maxlength="200"></textarea>
+             </div>
+ <div class="us">
+   <label for="">are you intrested in </label>
+   <input type="checkbox">
+ <label for=""> CODING</label>
+ <input type="checkbox" name="" id="">
+ <label for="">NON-CODING</label>
+ </div>
+        <div  class="us">
+            <button type="submit" class="sub">SUBMIT</button>
+            <button type="reset" class="res"> RESET</button>
+        </div>
+       
+ 
+ 
+         </form>
+      </section>
+        
+         
+
+
+     </main>
+
+   <a href="">
+    <button class="top">TOP</button>
+
+   </a>
+   <footer>
+     @  code with pradyun 2024
+   </footer>
+     
+
+</body>
+
+</html>

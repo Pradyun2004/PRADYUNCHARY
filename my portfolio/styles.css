@@ -1,0 +1,97 @@
+header{
+    background-color: deepskyblue;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+}
+header h1{
+    margin: 0px;
+    color: white;
+}
+h1{
+    color:dodgerblue;
+    font-size: 40px;
+}
+*{
+    font-family:monospace;
+ 
+
+}
+button{
+    height: 27px;
+    width: 100pxx;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.button:hover{
+    background-color: blue;
+}
+.submit:hover{
+    background-color: green;
+}
+.reset:hover{
+    background-color: red;
+}
+section{
+    height: 100vh;
+    border:  1px solid gray ;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 300px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+body{
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+input{
+    border-radius: 2pxpx;
+    border: 1px solid lightslategrey;
+    height: 17px;
+
+}
+footer{
+    background-color: black;
+    height: 130px;
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.top{
+ 
+    position: fixed;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: aqua;
+    color: white;
+    bottom: 20px;
+    right: 10px;
+    width: 70px;
+
+
+}
+.port{
+    margin-top: 15px;
+}
+.tag:hover{
+    cursor: pointer;
+}
