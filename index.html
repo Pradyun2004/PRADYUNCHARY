@@ -15,6 +15,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+               padding: 50px;
           
          
   
@@ -28,7 +29,7 @@
         }
         header{
             height: 100vh;
-            background-color:dodgerblue;
+             background-color:aqua;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -60,7 +61,7 @@
         }
         h1{
             text-transform: uppercase;
-            color: crimson;
+            color:dodgerblue;
           font-size: 40px;
         }
         .top{
@@ -91,6 +92,10 @@
             justify-content: center;
             align-items: center;
         }
+        .begin{
+          font-family: monospace;
+            color: white;
+        }
         
      
        
@@ -104,7 +109,7 @@
 
 
     <header>
-           <h1> WELCOME TO MY PORTFOLIO</h1>
+           <h1 class="begin" > WELCOME TO MY PORTFOLIO</h1>
            
 
           <div>
@@ -114,6 +119,11 @@
        <a href="#skills">
         <button class="button"> SKILLS</button>
        </a>
+               <a href="#Project">
+            <button class="button"> PROJECT </button>
+           </a>
+              
+        
            <a href="#contact">
             <button class="button"> CONTACT</button>
            </a>
@@ -138,6 +148,31 @@
             </ul>
 
          </section>
+
+         <section class="project" id="Project">
+
+             <h1>My Project</h1>
+
+             <table border="1">
+
+                <tr>
+                  <th>
+                    Projects
+                  </th>
+                  <th>
+                    Descriptiom
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    portfolio
+                  </td>
+                  <td>
+                    I have built a Portfolio website by using HTML,CSS & JvaScript
+                  </td>
+                </tr>  
+             </table>
+ </section>
        
         
         <section  id="contact">
